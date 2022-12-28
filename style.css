@@ -10,14 +10,17 @@ body{
 
 .top-image img
 {
-    width: 300px;
-    margin: 0;
+    max-width: 300px;
 }
 
 .text-row{
     background-color: white;
     min-height: 200px;
     margin: 0;  
+    padding: 0;
+}
+.images-row{
+    margin:0;
 }
 
 .title{
@@ -71,6 +74,10 @@ label {
     display: inline-block;
     margin-bottom: 1rem;
 }
+
+.linkMenu{
+    text-decoration: none;
+}
 .sr-only{
     position: absolute;
     width: 1px;
@@ -93,7 +100,6 @@ label {
  
    margin-top: 1rem;
    margin-bottom: 1rem;
-  
 }
 
 .btn:hover{
