@@ -1,0 +1,102 @@
+body{
+    background-color:  #0d1b48;
+    font-family: "Albert Sans";
+    text-align: center;
+    margin: 0;
+    color: #e3B744;
+}
+
+/*top-tittle section*/
+
+.top-image img
+{
+    width: 300px;
+    margin: 0;
+}
+
+.text-row{
+    background-color: white;
+    min-height: 200px;
+    margin: 0;  
+}
+
+.title{
+    font-size: 3.5rem;
+    padding: 15px;
+    font-family: "Merriweather";
+    font-weight: 900;
+    margin: 0;
+}
+
+.sentence{
+
+    font-size: 1.5rem; 
+    font-weight: lighter;
+    padding: 20px 100px 20px 100px;
+    color: #0d1b48;
+    margin: 0;
+}
+
+.linkreg
+{
+	
+	font-size: 1.3rem; 
+}
+
+.linkreg:hover
+{
+	color: #e3B744;
+    
+}
+.login{
+
+    margin: auto;
+    padding: 5% 5%;
+    width: 500px;
+}
+
+
+.form-control{
+
+    display: block;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 2px solid #e3B744;
+    border-radius: 0.5rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin: 0;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 10px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+}
+
+/* button style */
+
+.btn-block
+{
+    display: block;
+    width: 100%;
+}
+
+.btn{
+ 
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+  
+}
+
+.btn:hover{
+    background-color: #e3B744;
+    border-color:#0d1b48;
+}
